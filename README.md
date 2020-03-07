@@ -3,8 +3,14 @@ Open a web page at 7 o'clock everyday.
 
 ## How to use
 1. Install py2app
->```pip3 install py2app```
+```Python
+pip3 install py2app
+```
 2. Make python script to a mac application
->```python3 setup.py py2app```
+```Python
+python3 setup.py py2app
+```
 3. Copy the application to \Applications
->```cp ./dist/Alarm\ Clock.app /Applications```
+```Python
+cp ./dist/Alarm\ Clock.app /Applications
+```
